@@ -1,6 +1,6 @@
 /* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*- */
 /*
- * Copyright (C) 2011-2013 EasyRPG Project
+ * Copyright (C) 2011-2015 EasyRPG Project
  *
  * License: https://github.com/EasyRPG/Editor/blob/master/COPYING GPL
  *
@@ -116,7 +116,6 @@ public class MainWindow : Gtk.ApplicationWindow {
 		var action_about = new Gtk.Action ("ActionAbout", "_About", "See information about this program's current version", null);
 		action_about.set_icon_name (Resources.STOCK_ICON_ABOUT);
 		var action_loaded_modules = new Gtk.Action ("ActionLoadModules", "_List Modules", "List loaded modules", null);
-
 		var action_undo = new Gtk.Action ("ActionUndo", "_Undo", "Undo last change", Resources.STOCK_ICON_UNDO);
 		var action_redo = new Gtk.Action ("ActionRedo", "_Redo", "Redo last change", Resources.STOCK_ICON_REDO);
 		var action_select_tool = new Gtk.RadioAction ("ActionSelect", "_Select", "Select a part of the map", null, DrawingTool.SELECT);

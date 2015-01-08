@@ -1,6 +1,6 @@
 /* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*- */
 /*
- * Copyright (C) 2011 EasyRPG Project
+ * Copyright (C) 2015 EasyRPG Project
  *
  * License: https://github.com/EasyRPG/Editor/blob/master/COPYING GPL
  *

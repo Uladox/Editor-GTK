@@ -1,6 +1,6 @@
 /* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*- */
 /*
- * Copyright (C) 2011-2013 EasyRPG Project
+ * Copyright (C) 2011-2015 EasyRPG Project
  *
  * License: https://github.com/EasyRPG/Editor/blob/master/COPYING GPL
  *
@@ -1067,7 +1067,7 @@ public class Editor : Gtk.Application {
 		about_dialog.set_program_name (Resources.APP_NAME);
 		about_dialog.set_comments ("A role playing game editor");
 		about_dialog.set_website (Resources.APP_WEBSITE);
-		about_dialog.set_copyright ("© EasyRPG Project 2011-2012");
+		about_dialog.set_copyright ("© EasyRPG Project 2011-2015");
 		about_dialog.set_authors (Resources.APP_AUTHORS);
 		about_dialog.set_artists (Resources.APP_ARTISTS);
 		about_dialog.set_logo (Resources.load_icon_as_pixbuf ("easyrpg", 48));
